@@ -9,5 +9,25 @@
 }
 
 .memberRow{
-    /* flex-wrap: unset; */
+    /* flex-wrap: unset;
+    flex-direction: column; */
+}
+
+.noPadding{
+    padding: 0px;
+}
+
+.blackText{
+    color:#000 !important;
+}
+
+.pt-50{
+    padding-top: 50px !important;
+}
+.pt-150{
+    padding-top: 150px !important;
+}
+
+.flexDisp{
+    display: inline-flex;
 }

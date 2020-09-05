@@ -4,12 +4,12 @@ import React, { Component } from 'react';
 class timeline extends React.Component{
     render(){
         return (
-            <div className="program_details_area detials_bg_1 overlay2">
+            <div className="program_details_area detials_bg_1 overlay2 noPadding">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section_title text-center mb-80  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                            <h3>Program Details</h3>
+                            <h3>Our Journey</h3>
                         </div>
                     </div>
                 </div>

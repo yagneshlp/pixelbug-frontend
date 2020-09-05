@@ -13,9 +13,8 @@ class Navbar extends React.Component {
                         <div className="row align-items-center">
                             <div className="col-xl-3 col-lg-3">
                                 <div className="logo">
-                                    <a href="index.html">
-                                        <img src="img/logo.png" alt="" />
-                                    </a>
+                                  <Link to="/"> <img src="img/logo.png" alt="" /></Link>                                       
+                                  
                                 </div>
                             </div>
                             <div className="col-xl-9 col-lg-9">
@@ -24,16 +23,16 @@ class Navbar extends React.Component {
                                         <ul id="navigation">
                                             <Link to="/"> <li><a>home</a></li></Link>  
                                             <Link to="/about"> <li><a>about us</a></li></Link>                                             
-                                            <Link to="/members"> <li><a>members</a></li></Link>                                           
-                                            
-                                            <li><a>Gallery <i className="ti-angle-down"></i></a>
+                                            <Link to="/members"> <li><a>members</a></li></Link>
+                                            <Link to="/gallery"> <li><a>Gallery</a></li></Link> 
+                                            {/* <li><a>Gallery <i className="ti-angle-down"></i></a>
                                                 <ul className="submenu">
                                                 <li><Link to="/members">Festember</Link> </li>
                                                 <li><Link to="/members">Pragyan</Link> </li>
                                                 <li><Link to="/members">Nittfest</Link> </li>
                                                 <li><Link to="/members">Sportsfete</Link> </li>
                                                 </ul>
-                                            </li>
+                                            </li> */}
                                             <Link to="/aurora"> <li><a>Aurora</a></li></Link> 
                                             <Link to="/contact"> <li><a>Contact</a></li></Link>
                                            

@@ -287,6 +287,8 @@ dots:false,
 
 });
 
+
+
 // resitration_Form
 $(document).ready(function() {
 	$('.popup-with-form').magnificPopup({
