@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import {appendScript} from '../utils/AppendScript'
+import {appendScript} from '../utils/AppendScript';
+import $ from 'jquery';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 
 class aurora extends React.Component{
-    // componentDidMount () {
-    //     console.log("HiHELLLOO");
-    //     appendScript("/public/js/main.js");
-        
-    // }
+    
+    componentDidMount () {
+    }
     render(){
         return (   
             <div>
@@ -42,8 +45,14 @@ class aurora extends React.Component{
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="brand_wrap">
-                            <div className="brand_active owl-carousel">
-                                <div className="single_brand text-center">
+                        <OwlCarousel
+                            className="brand_active"
+                            autoplay={true}
+                            loop={true}
+                            items={5}                       
+                            nav
+                        >
+                             <div className="single_brand text-center">
                                     <img src="img/brand/1.png" alt=""/>
                                 </div>
                                 <div className="single_brand text-center">
@@ -64,7 +73,9 @@ class aurora extends React.Component{
                                 <div className="single_brand text-center">
                                     <img src="img/brand/2.png" alt=""/>
                                 </div>
-                            </div>
+                           
+                        </OwlCarousel>
+                           
                         </div>
                     </div>
                 </div>

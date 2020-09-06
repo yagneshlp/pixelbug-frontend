@@ -1,7 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
+import fetchMembers from '../utils/FetchMembers';
+import FetchMembers from '../utils/FetchMembers';
+// url: https://spreadsheets.google.com/feeds/cells/1uZKWSdclB9FGCNGpoKsdwcChwhjfJm-c5P8tRrYGP6c/1/public/full?alt=json
 
+class members extends React.Component{    
 
-class members extends React.Component{
     render(){
         return (           
         <div className="performar_area black_bg">
@@ -12,17 +15,38 @@ class members extends React.Component{
                             <div className="col-xl-12">
                                 <div className="bradcam_text text-center">              
                                         <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Members</h3>
-                                </div>                                
+                                </div>      
+                                <section >
+                                    <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
+                                        <p className="sample-text">
+                                           Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut. Officia proident enim elit nisi dolore irure velit Lorem irure non tempor elit ut. Excepteur labore incididunt mollit quis est. Aliquip quis non ad duis nulla mollit exercitation commodo aute anim est laboris.                                            
+                                        </p>                                       
+                                    </div>
+                                </section>                          
                             </div>
                             </div>
                     </div>
                 </div>
             </div>    
-        <div className="container">           
+        <div className="container core">           
             <div className="row justify-content-center">
-                <div className="col-lg-6">
-                    <div className="row memberRow" >
-                        <div className="col-lg-6 col-md-6">
+                <div className="col-lg-6 memberFitContent">
+                    <FetchMembers memberType="core" />                    
+                </div>
+            </div>
+        </div>
+        <div className="container members">           
+            <div className="row justify-content-center">
+                <div className="col-lg-6 memberFitContent">
+                <FetchMembers memberType="other" />                                       
+                </div>
+            </div>
+        </div>
+        <div className="container webOps">           
+            <div className="row justify-content-center">
+                <div className="col-lg-4 memberFitContent">
+                    <div className="row " >
+                        <div className="col-lg-12 col-md-12">
                             <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                 <div data-tilt className="thumb">
                                     <img src="img/performer/1.png" alt=""/>
@@ -33,51 +57,7 @@ class members extends React.Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6">
-                            <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                <div data-tilt className="thumb">
-                                    <img src="img/performer/2.png" alt=""/>
-                                </div>
-                                <div className="performer_heading">
-                                    <h4>Protik Hasan</h4>
-                                    <span>Acoustic drum</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-6">
-                            <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                <div data-tilt className="thumb">
-                                    <img src="img/performer/3.png" alt=""/>
-                                </div>
-                                <div className="performer_heading">
-                                    <h4>Salmon Vicky</h4>
-                                    <span>Acoustic drum</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-6">
-                            <div   className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                <div data-tilt className="thumb">
-                                    <img src="img/performer/4.png" alt=""/>
-                                </div>
-                                <div className="performer_heading">
-                                    <h4>Filaris Habol</h4>
-                                    <span>Acoustic drum</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-6">
-                            <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                <div data-tilt className="thumb">
-                                    <img src="img/performer/1.png" alt=""/>
-                                </div>
-                                <div className="performer_heading">
-                                    <h4>Mr. Zosoldos</h4>
-                                    <span>Acoustic drum</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>

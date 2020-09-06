@@ -1,21 +1,32 @@
 import React, { Component } from 'react';
-
+import $ from 'jquery';
 
 class home extends React.Component{
+    componentDidMount(){
+
+        
+    }
     render(){
         return (
            <div>
 
         <div className="slider_area">
+            <div class="video-background">
+                <div class="video-foreground">
+                <iframe src="https://www.youtube.com/embed/cXSEEQIevqk?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=cXSEEQIevqk" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+            </div>
             <div className="single_slider  align-items-center d-flex overlay">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
-                        <div className="col-xl-12">
+                        <div className="col-xl-12 text-center">
                             <div className="slider_text text-center">
-                                <h3 className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Pixelbug</h3>
+                                <h3 className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">Pixelbug</h3>
                                 {/* <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Pixelbug</p> */}
                                 {/* <iframe className ="landingVideo" width="560" height="315" src="https://www.youtube.com/embed/cXSEEQIevqk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe> */}
                             </div>
+                            <p className="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.5s" >The Official Photography and Videography club of <a className="alink" href="//nitt.edu" target="_blank">NIT Trichy</a></p>
                         </div>
                     </div>
                 </div>
@@ -29,7 +40,7 @@ class home extends React.Component{
                     <div className="col-lg-8">
                         <div className="section_title text-center mb-80">
                             <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" ></h3>
-                            <p className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" >Pixelbug is the Official Photography and Videography club of <a className="alink" href="//nitt.edu" target="_blank">NIT Trichy</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -46,10 +57,9 @@ class home extends React.Component{
                     </div>
                     <div className="col-lg-5 col-md-6">
                         <div className="about_info pl-68">
-                            <h4 className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">It’s time to book your seat</h4>
-                            <p  className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">The event regularly attracts a diverse range of attendees from around the world, across different professions, and with different levels of experience transform your business.</p>
-                            <a href="#" className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Know more</a>
-                            <a href="#" className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Memebers</a>
+                            <h4 className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Hi there!</h4>
+                            <p  className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">Elit ipsum laboris fugiat officia tempor amet labore consectetur enim nulla minim. Qui quis occaecat duis eiusmod qui anim pariatur exercitation. Ea excepteur fugiat dolore aliquip nostrud aliqua pariatur.</p>
+                            <a href="#" className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Learn more</a>                           
                         </div>
                     </div>
                 </div>

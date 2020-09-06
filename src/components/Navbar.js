@@ -24,16 +24,14 @@ class Navbar extends React.Component {
                                             <Link to="/"> <li><a>home</a></li></Link>  
                                             <Link to="/about"> <li><a>about us</a></li></Link>                                             
                                             <Link to="/members"> <li><a>members</a></li></Link>
-                                            <Link to="/gallery"> <li><a>Gallery</a></li></Link> 
+                                            <Link to="/gallery"> <li><a>Works</a></li></Link> 
                                             {/* <li><a>Gallery <i className="ti-angle-down"></i></a>
                                                 <ul className="submenu">
-                                                <li><Link to="/members">Festember</Link> </li>
-                                                <li><Link to="/members">Pragyan</Link> </li>
-                                                <li><Link to="/members">Nittfest</Link> </li>
-                                                <li><Link to="/members">Sportsfete</Link> </li>
+                                                <li><Link to="/gallery/photos">Photo</Link> </li>
+                                                <li><Link to="/gallery/videos">Video</Link> </li>                                              
                                                 </ul>
                                             </li> */}
-                                            <Link to="/aurora"> <li><a>Aurora</a></li></Link> 
+                                            <Link to="/aurora"> <li><a className="overlineDeco">Aurora</a></li></Link> 
                                             <Link to="/contact"> <li><a>Contact</a></li></Link>
                                            
                                         </ul>
