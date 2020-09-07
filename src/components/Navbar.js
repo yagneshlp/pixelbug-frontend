@@ -13,7 +13,7 @@ class Navbar extends React.Component {
                         <div className="row align-items-center">
                             <div className="col-xl-3 col-lg-3">
                                 <div className="logo">
-                                  <Link to="/"> <img src="img/logo.png" alt="" /></Link>                                       
+                                  <Link to="/"> <img className="navLogoMobile" src="img/logo.png" alt="" /></Link>                                       
                                   
                                 </div>
                             </div>

@@ -11,24 +11,24 @@ function FetchMembers(props){
 
     const fetchMembers = async () => {
         const data = await fetch(
-            "https://spreadsheets.google.com/feeds/cells/1uZKWSdclB9FGCNGpoKsdwcChwhjfJm-c5P8tRrYGP6c/1/public/full?alt=json"
+            "https://spreadsheets.google.com/feeds/cells/1OlN_6p1u8usdtbo8cIiD2FArgQJA7blfpLN7bEM_xK4/1/public/full?alt=json"
             );
 
         const members = await data.json();
         console.log(members);
         var team=[];
         var offset = { name: 0, batch : 1, desig : 2, profile : 3,	img : 4 };
-        for (var i=1;i<(members.feed.entry.length/7);i++) {
+        for (var i=1;i<(members.feed.entry.length/6);i++) {
             team.splice(i,0,memberBuilder(members.feed, i));
         }
 
         function memberBuilder(feed,seed){
             var member =  {
-                "name": feed.entry[(7*seed) + offset.name].content.$t,
-                "batch": feed.entry[(7*seed) + offset.batch].content.$t,
-                "desig": feed.entry[(7*seed) + offset.desig].content.$t,
-                "profile": feed.entry[(7*seed) + offset.profile].content.$t,
-                "img": feed.entry[(7*seed) + offset.img].content.$t,
+                "name": feed.entry[(6*seed) + offset.name].content.$t,
+                "batch": feed.entry[(6*seed) + offset.batch].content.$t,
+                "desig": feed.entry[(6*seed) + offset.desig].content.$t,
+                "profile": feed.entry[(6*seed) + offset.profile].content.$t,
+                "img": feed.entry[(6*seed) + offset.img].content.$t,
             }        
             //console.log(member);
             return member;
