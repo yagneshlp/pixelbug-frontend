@@ -3,11 +3,31 @@ import $ from 'jquery';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Link } from 'react-router-dom';
 
 class home extends React.Component{
-    componentDidMount(){
-
-        
+    state = {
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+            },
+            767:{
+                items:2,
+            },
+            992:{
+                items:3,
+                nav:true
+            },
+            1200:{
+                items:4,
+            },
+            1600:{
+                items:5,
+                nav:true
+            }
+        },
+        navText:['<i class="ti-angle-left navWhiteIcon"></i>','<i class="ti-angle-right navWhiteIcon"></i>']
     }
     render(){
         return (
@@ -72,8 +92,9 @@ class home extends React.Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="section_title text-center mb-80">
+                            <div className="section_title text-center mb-30">
                                 <h4 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Our Works</h4>
+                                <p>Reprehenderit duis tempor aliqua ex velit eu labore excepteur id laborum esse.</p>
                             </div>
                         </div>
                     </div>
@@ -84,7 +105,14 @@ class home extends React.Component{
                                 className="brand_active"
                                 autoplay={true}
                                 loop={true}
-                                items={4}                       
+                                items={4}
+                                dots={false}
+                                navText={this.state.navText}
+                                navContainer={"#navContainer"}
+                                responsive={this.state.responsive}  
+                                autoplaySpeed={500}
+                                animateOut={'fadeOut'}
+                                animateIn= {'fadeIn'}                                         
                                 nav
                             >
                                 <div className="single_brand text-center">
@@ -104,11 +132,11 @@ class home extends React.Component{
                                     </div>
                                     <div className="single_brand text-center">
                                         <img src="img/performer/2.png" alt=""/>
-                                    </div>
-                            
+                                    </div>                            
                             </OwlCarousel>
+                            <div id="navContainer"></div>
 
-                            <a href="#" className="boxed-btn3  wow fadeInLeft text-center" data-wow-duration="1s" data-wow-delay=".7s">View our gallery</a>                           
+                            <Link to="/gallery"><a className="boxed-btn3  wow fadeInLeft text-center" data-wow-duration="1s" data-wow-delay=".7s">View our gallery</a></Link>
                             
                             </div>
                         </div>
@@ -116,34 +144,13 @@ class home extends React.Component{
                 </div>
             </div>
         </div>
-
-        
-            
-
-
         <footer className="footer">
-            <div className="footer_top">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-6 col-md-8">
-                            <div className="footer_widget">
-                                <div className="address_details text-center">
-                                    <h4 className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">12 Feb, 2020</h4>
-                                    <h3 className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Green Avenue, New York</h3>
-                                    <p className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">The event regularly attracts a diverse range of attendees from around the world.</p>
-                                    <a href="#" className="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Buy Tickets</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div className="copy-right_text">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">
                             <p className="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-
+                            Website crafted with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://yagneshlp.me" target="_blank">YLP</a>
                             </p>
                         </div>
                     </div>

@@ -77,6 +77,19 @@
     padding: 0 10px;    
 }
 
+.navWhiteIcon{
+    margin-top: 20px;   
+    margin-bottom: 20px; 
+    color: white;
+}
+
+.owl-next , .owl-prev {
+    background-color: transparent;
+    box-shadow: none;
+    border: transparent;
+    padding: 10px 0;
+    cursor: pointer;
+}
 
 
   @media(min-width: 767px){
