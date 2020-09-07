@@ -35,9 +35,9 @@ class home extends React.Component{
 
         <div className="slider_area">
             <div class="video-background">
-                <div class="video-foreground">
-                <iframe src="https://www.youtube.com/embed/Ny8IM6SFCpk?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=cXSEEQIevqk" frameborder="0" allowfullscreen></iframe>
-                </div>
+                <div class="video-foreground" >
+                    <div id="player"></div>
+            </div>
                 
             </div>
             <div className="single_slider  align-items-center d-flex overlay">

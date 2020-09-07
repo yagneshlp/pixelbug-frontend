@@ -44,8 +44,8 @@
   .video-foreground,
   .video-background iframe {
     position: absolute;    
-    top: -108px;
-    left: -192px;
+    top: -10vh;
+    left: -10vw;
     width: 120%;
     height: 120%;
     pointer-events: none;
@@ -104,7 +104,7 @@
     }
   }
 
-  @media(max-width: 767px){
+  @media(max-width: 768px){
     .memberImageContainer {
         margin-left: auto;
         margin-right: auto;        
@@ -112,4 +112,16 @@
     .textCenterAlign{
         text-align: center;
     }
+    .video-background iframe {        
+        top: -500px;
+        left: -50vw;
+        width: 180%;
+        height: 180%;
+
+      }
+  }
+
+  @media(max-width: 424px){
+
+
   }
