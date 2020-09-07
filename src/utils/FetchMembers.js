@@ -39,10 +39,11 @@ function FetchMembers(props){
 
     return(
         <div className="row">
-            {
+            {   
                 items.map( member=>{
+                    var year = new Date().getFullYear();
                     if(props.memberType === "core"){
-                        if(member.desig == "Core")
+                        if(member.desig == "Core" && (member.batch > year))
                             return <div className="col-lg-6 col-md-6 coreMember ">
                                         <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                             <div data-tilt className="thumb memberImageContainer">
@@ -56,8 +57,23 @@ function FetchMembers(props){
                                         </div>
                                     </div>;
                     }
+                    else if(props.memberType === "alumni"){                       
+                        if(member.batch <= year){
+                            return <div className="col-lg-6 col-md-6 otherMember">
+                                        <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                            <div data-tilt className="thumb memberImageContainer">
+                                                <img src={member.img} className="memberImage" alt=""/>
+                                            </div>
+                                            <div className="performer_heading textCenterAlign">
+                                                <h4>{member.name}</h4>                                               
+                                                <span>Batch of {member.batch}</span>
+                                            </div>
+                                        </div>
+                                    </div>;
+                        }
+                    }
                     else{                    
-                        if(member.desig != "Core")
+                        if(member.desig != "Core" && (member.batch > year))
                             return <div className="col-lg-6 col-md-6 otherMember">
                                         <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                             <div data-tilt className="thumb memberImageContainer">

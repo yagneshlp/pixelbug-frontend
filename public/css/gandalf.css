@@ -91,6 +91,10 @@
     cursor: pointer;
 }
 
+.linkCompensation{
+    color: #f00;
+}
+
 
   @media(min-width: 767px){
     .coreMember{

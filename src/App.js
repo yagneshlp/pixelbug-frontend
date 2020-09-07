@@ -8,6 +8,7 @@ import Aurora from './components/Aurora';
 import Gallery from './components/Gallery';
 import PhotoGallery from './components/PhotoGallery';
 import VideoGallery from './components/VideoGallery';
+import Alumni from './components/Alumni';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -20,6 +21,7 @@ class App extends React.Component {
             <Switch>           
                 <Route path="/about" exact component={About}></Route>
                 <Route path="/members" exact component={Members}></Route>
+                <Route path="/members/alumni" exact component={Alumni}></Route>
                 <Route path="/gallery" exact component={Gallery}></Route>
                 <Route path="/gallery/videos" exact component={VideoGallery}></Route>
                 <Route path="/gallery/photos" exact component={PhotoGallery}></Route>
@@ -30,6 +32,19 @@ class App extends React.Component {
                 <Route path="/contact" exact component={Contact}></Route>
                 <Route path="/"  component={Home}></Route>
             </Switch>
+            <footer className="footer">
+            <div className="copy-right_text">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <p className="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                            Website crafted with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://yagneshlp.me" target="_blank">YLP</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         </div>
     </Router>
     )

@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import fetchMembers from '../utils/FetchMembers';
 import FetchMembers from '../utils/FetchMembers';
+import { Link } from 'react-router-dom';
 // url: https://spreadsheets.google.com/feeds/cells/1uZKWSdclB9FGCNGpoKsdwcChwhjfJm-c5P8tRrYGP6c/1/public/full?alt=json
 
 class members extends React.Component{    
@@ -19,7 +20,8 @@ class members extends React.Component{
                                 <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                           Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut. Officia proident enim elit nisi dolore irure velit Lorem irure non tempor elit ut. Excepteur labore incididunt mollit quis est. Aliquip quis non ad duis nulla mollit exercitation commodo aute anim est laboris.                                            
+                                            Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut. Officia proident enim elit nisi dolore irure velit Lorem irure non tempor elit ut. Excepteur labore incididunt mollit quis est. Aliquip quis non ad duis nulla mollit exercitation commodo aute anim est laboris.                                            
+                                            <br/>Our seniors are so awesome that we keep a track of them. <Link to="/members/alumni" className="linkCompensation" >View our Alumni</Link> 
                                         </p>                                       
                                     </div>
                                 </section>                          
