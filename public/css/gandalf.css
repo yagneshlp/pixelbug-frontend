@@ -44,8 +44,8 @@
   .video-foreground,
   .video-background iframe {
     position: absolute;    
-    top: -80px;
-    left: -80px;
+    top: -108px;
+    left: -192px;
     width: 120%;
     height: 120%;
     pointer-events: none;
@@ -71,6 +71,10 @@
     margin: auto;
     min-height: 100%;
     min-width: 100%;
+}
+
+.single_brand{
+    padding: 0 10px;    
 }
 
 

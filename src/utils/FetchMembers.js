@@ -50,6 +50,7 @@ function FetchMembers(props){
                                             </div>
                                             <div className="performer_heading textCenterAlign">
                                                 <h4>{member.name}</h4>
+                                                <p>Core</p>
                                             <a href={"https://instagram.com/"+member.profile} target="_blank"> <span>@{member.profile}</span></a>
                                             </div>
                                         </div>
