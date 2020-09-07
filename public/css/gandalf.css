@@ -185,6 +185,9 @@
         width: 150px;
         padding-top: 10px;
     }
+    .fontSize50{
+        font-size: 50px !important;
+    }
   }
 
   @media(max-width: 424px){

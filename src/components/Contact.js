@@ -11,7 +11,7 @@ class contact extends React.Component{
                             <div className="row align-items-center justify-content-center">
                             <div className="col-xl-12">
                                 <div className="bradcam_text text-center">              
-                                        <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Contact</h3>
+                                        <h3 className="wow fadeInRight fontSize50" data-wow-duration="1s" data-wow-delay=".3s">Contact</h3>
                                 </div>
                             </div>
                             </div>

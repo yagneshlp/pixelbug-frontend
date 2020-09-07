@@ -15,12 +15,12 @@ class members extends React.Component{
                             <div className="row align-items-center justify-content-center">
                             <div className="col-xl-12">
                                 <div className="bradcam_text text-center">              
-                                        <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Members</h3>
+                                        <h3 className="wow fadeInRight fontSize50" data-wow-duration="1s" data-wow-delay=".3s">Members</h3>
                                 </div>      
                                 <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                            Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut. Officia proident enim elit nisi dolore irure velit Lorem irure non tempor elit ut. Excepteur labore incididunt mollit quis est. Aliquip quis non ad duis nulla mollit exercitation commodo aute anim est laboris.                                            
+                                            Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut.                                         
                                             <br/>Our seniors are so awesome that we keep a track of them. <Link to="/members/alumni" className="linkCompensation" >View our Alumni</Link> 
                                         </p>                                       
                                     </div>

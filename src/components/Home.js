@@ -44,8 +44,8 @@ class home extends React.Component{
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-xl-12 text-center">
-                            <div className="slider_text text-center">
-                                <h3 className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="12s">Pixelbug</h3>
+                            <div className="slider_text text-center mb-0">
+                                <h3 className="wow fadeInLeft fontSize50" data-wow-duration="1s" data-wow-delay="12s">Pixelbug</h3>
                                 {/* <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Pixelbug</p> */}
                                 {/* <iframe className ="landingVideo" width="560" height="315" src="https://www.youtube.com/embed/cXSEEQIevqk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe> */}
                             </div>
@@ -79,8 +79,8 @@ class home extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5 col-md-6">
-                        <div className="about_info pl-68">
+                    <div  className="col-lg-5 col-md-6">
+                        <div className="section_title pl-68 text-center" >
                             <h4 className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">About us</h4>
                             <p  className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">← GROUP PHOTO COMES HERE<br/>Qui quis occaecat duis eiusmod qui anim pariatur exercitation. Ea excepteur fugiat dolore aliquip nostrud aliqua pariatur.<br/> BELOW LINK TAKES TO ABOUT PAGE </p>
                             <a href="#" className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Learn more</a>                           

@@ -36,7 +36,7 @@ class App extends React.Component {
             <div className="copy-right_text">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-12">
+                        <div className="col-xl-12 mt-30">
                             <p className="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
                             Website crafted with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://yagneshlp.me" target="_blank">YLP</a>
                             </p>
