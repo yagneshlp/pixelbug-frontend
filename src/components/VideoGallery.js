@@ -12,13 +12,20 @@ class videoGallery extends React.Component{
                                 <div className="row align-items-center justify-content-center">
                                 <div className="col-xl-12">
                                     <div className="bradcam_text text-center">     
-                                            <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Videography</h3>
+                                            <h3 className="wow fadeInRight fontSize40" data-wow-duration="1s" data-wow-delay=".3s">Videography</h3>
                                     </div>
                                     <svg class="arrows">
                                         <path class="a1" d="M0 0 L30 32 L60 0"></path>
                                         <path class="a2" d="M0 20 L30 52 L60 20"></path>
                                         <path class="a3" d="M0 40 L30 72 L60 40"></path>
                                     </svg>
+                                    <section >
+                                    <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
+                                        <p className="sample-text">
+                                        sample text about videography and videography team <br/> Scroll down to see our video portfolio                                         
+                                        </p>                                       
+                                    </div>
+                                </section>          
                                 </div>
                                 </div>
                         </div>

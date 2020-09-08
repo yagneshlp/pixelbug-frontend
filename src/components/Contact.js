@@ -14,6 +14,13 @@ class contact extends React.Component{
                                         <h3 className="wow fadeInRight fontSize50" data-wow-duration="1s" data-wow-delay=".3s">Contact</h3>
                                 </div>
                             </div>
+                            <section >
+                                    <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
+                                        <p className="sample-text">
+                                           Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in.
+                                        </p>                                        
+                                    </div>
+                                </section>
                             </div>
                     </div>
                 </div>
@@ -26,8 +33,12 @@ class contact extends React.Component{
                             <div className="media contact-info">
                                 <span className="contact-info__icon"><i className="ti-mobile"></i></span>
                                 <div className="media-body">
-                                    <h3>+91 987654321</h3>
-                                    {/* <p>Mon to Fri 9am to 6pm</p> */}
+                                    <h3>P Srikar</h3>
+                                    <a href="tel:+91 8978510561">+91 8978510561</a>
+                                    <h3>T Ajay Shankar</h3> 
+                                    <a href="tel:+91 9790992343">+91 9790992343</a>                                    
+                                    <h3>Anvar M</h3>
+                                    <a href="tel:+91 81240 04834">+91 8124004834</a>                                    
                                 </div>
                             </div>
                             <div className="media contact-info">

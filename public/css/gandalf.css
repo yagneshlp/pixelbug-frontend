@@ -97,7 +97,7 @@
 
 
 .arrows {
-    top: 150px;
+    top: 250px;
 	width: 60px;
 	height: 72px;
 	position: absolute;
@@ -187,6 +187,9 @@
     }
     .fontSize50{
         font-size: 50px !important;
+    }
+    .fontSize40{
+        font-size: 40px !important;
     }
   }
 
