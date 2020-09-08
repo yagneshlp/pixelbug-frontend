@@ -85,8 +85,8 @@ class home extends React.Component{
                     <div  className="col-lg-5 col-md-6">
                         <div className="section_title pl-68 text-center" >
                             <h4 className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">About us</h4>
-                            <p  className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">← GROUP PHOTO COMES HERE<br/>Qui quis occaecat duis eiusmod qui anim pariatur exercitation. Ea excepteur fugiat dolore aliquip nostrud aliqua pariatur.<br/> BELOW LINK TAKES TO ABOUT PAGE </p>
-                            <a href="#" className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Learn more</a>                           
+                            <p  className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">← GROUP PHOTO COMES HERE<br/>Qui quis occaecat duis eiusmod qui anim pariatur exercitation. Ea excepteur fugiat dolore aliquip nostrud aliqua pariatur.<br/> BELOW LINK TAKES TO ABOUT PAGE </p><br/>
+                            <Link to="/about" ><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Learn more</a></Link>
                         </div>
                     </div>
                 </div>
@@ -101,9 +101,9 @@ class home extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row mb-20">
                         <div className="col-lg-12">
-                            <div className="brand_wrap text-center">
+                            <div className=" text-center">
                             <OwlCarousel
                                 className="brand_active"
                                 autoplay={true}
@@ -144,9 +144,93 @@ class home extends React.Component{
                             </div>
                         </div>
                     </div>
+ 
                 </div>
+               
+               <div className="container pt-50" > 
+                     <div className="row align-items-center mt-30">                    
+                        <div  className="col-lg-5 col-md-6">
+                            <div className="section_title pl-68 text-center" >
+                                <h4 className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">The Team</h4>
+                                <p  className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s"><br/>So who are these pixies working together as Pixelbug?</p><br/> 
+                                <Link to="/members" ><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Show me!</a></Link>                           
+                            </div>
+                        </div>
+                        <div className="col-lg-7 col-md-6 pt-3">
+                            <div className="about_thumb">
+                            <OwlCarousel
+                                className="brand_active"
+                                autoplay={true}
+                                loop={true}
+                                items={1}
+                                dots={false}
+                                autoplaySpeed={200}
+                                animateOut={'fadeOut'}
+                                animateIn= {'fadeIn'} 
+                            >
+                                <div className="single_brand text-center">
+                                        <img src="img/team/1.jpg" alt=""/>
+                                    </div>
+                                    <div className="single_brand text-center">
+                                        <img src="img/team/2.jpg" alt=""/>
+                                    </div>
+                                    <div className="single_brand text-center">
+                                        <img src="img/team/3.jpg" alt=""/>
+                                    </div>
+                                    <div className="single_brand text-center">
+                                        <img src="img/team/4.jpg" alt=""/>
+                                    </div>
+                            </OwlCarousel>
+                            </div>
+                        </div>
+                    </div> 
+               </div>
+               <footer class="footer ">
+                    <div class="footer_top pb-0">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-md-8">
+                                    <div class="footer_widget">
+                                        <div class="address_details text-center">
+                                            <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Aurora</h3>
+                                            <h5 class="wow fadeInUp italicizee" data-wow-duration="1s" data-wow-delay=".4s">The celebration of everything pixel</h5><br/>
+                                            <OwlCarousel
+                                                className="brand_active"
+                                                autoplay={true}
+                                                loop={true}
+                                                items={2}
+                                                dots={false}
+                                                autoplaySpeed={200}
+                                                animateOut={'fadeOut'}
+                                                animateIn= {'fadeIn'} 
+                                            >
+                                                <div className="single_brand text-center">
+                                                        <img src="img/team/1.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="single_brand text-center">
+                                                        <img src="img/team/2.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="single_brand text-center">
+                                                        <img src="img/team/3.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="single_brand text-center">
+                                                        <img src="img/team/4.jpg" alt=""/>
+                                                    </div>
+                                            </OwlCarousel>
+                                            <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">The event regularly attracts a diverse range of attendees from around the world.</p>
+                                            <Link to="/aurora"><a class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Know more!</a></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
             </div>
+            
         </div>
+       
         </div>
         )
     }

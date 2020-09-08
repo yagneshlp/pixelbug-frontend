@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import fetchMembers from '../utils/FetchMembers';
+import FetchAlumni from '../utils/FetchAlumni';
 import FetchMembers from '../utils/FetchMembers';
 import { Link } from 'react-router-dom';
 // url: https://spreadsheets.google.com/feeds/cells/1uZKWSdclB9FGCNGpoKsdwcChwhjfJm-c5P8tRrYGP6c/1/public/full?alt=json
@@ -32,6 +32,7 @@ class members extends React.Component{
         <div className="container core">           
             <div className="row justify-content-center">
                 <div className="col-lg-6 memberFitContent">
+                    <FetchAlumni/>
                     <FetchMembers memberType="alumni" />                    
                 </div>
             </div>

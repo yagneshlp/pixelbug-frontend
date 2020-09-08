@@ -13,6 +13,12 @@
     flex-direction: column; */
 }
 
+.italicizee{
+    font-style: italic;
+    color:red;
+    font-weight: 100;
+}
+
 .noPadding{
     padding: 0px;
 }
@@ -20,7 +26,10 @@
 .blackText{
     color:#000 !important;
 }
+.pt-00{
+    padding-top: 0px !important;
 
+}
 .pt-50{
     padding-top: 50px !important;
 }
@@ -149,6 +158,14 @@
     width: 150px;
     
     
+}
+
+.redHeadings h2,h3,h4{
+    color: red;
+}
+
+.redFont{
+    color:red;
 }
 
 

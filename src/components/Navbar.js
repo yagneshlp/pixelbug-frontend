@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 class Navbar extends React.Component {
     render(){
@@ -13,26 +13,25 @@ class Navbar extends React.Component {
                         <div className="row align-items-center">
                             <div className="col-xl-3 col-lg-3">
                                 <div className="logo">
-                                  <Link to="/"> <img className="navLogoMobile" src="img/logo.png" alt="" /></Link>                                       
-                                  
+                                  <Link to="/"> <img className="navLogoMobile" src="img/logo.png" alt="" /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-9 col-lg-9">
                                 <div className="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <Link to="/"> <li><a>home</a></li></Link>  
-                                            <Link to="/about"> <li><a>about us</a></li></Link>                                             
-                                            <Link to="/members"> <li><a>members</a></li></Link>
-                                            <Link to="/gallery"> <li><a>Works</a></li></Link> 
+                                            <NavLink to="/" exact activeStyle={{color:'red'}}> <li><a>home</a></li></NavLink>  
+                                            <NavLink to="/about" exact activeStyle={{color:'red'}}> <li><a>about us</a></li></NavLink>                                             
+                                            <NavLink to="/members" exact activeStyle={{color:'red'}}> <li><a>members</a></li></NavLink>
+                                            <NavLink to="/gallery" exact activeStyle={{color:'red'}}> <li><a>Works</a></li></NavLink> 
                                             {/* <li><a>Gallery <i className="ti-angle-down"></i></a>
                                                 <ul className="submenu">
                                                 <li><Link to="/gallery/photos">Photo</Link> </li>
                                                 <li><Link to="/gallery/videos">Video</Link> </li>                                              
                                                 </ul>
                                             </li> */}
-                                            <Link to="/aurora"> <li><a className="overlineDeco">Aurora</a></li></Link> 
-                                            <Link to="/contact"> <li><a>Contact</a></li></Link>
+                                            <NavLink to="/aurora" exact activeStyle={{color:'red'}}> <li><a className="overlineDeco">Aurora</a></li></NavLink> 
+                                            <NavLink to="/contact" exact activeStyle={{color:'red'}}> <li><a>Contact</a></li></NavLink>
                                            
                                         </ul>
                                     </nav>
