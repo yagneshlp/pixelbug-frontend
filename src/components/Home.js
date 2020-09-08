@@ -3,6 +3,7 @@ import $ from 'jquery';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import YoutubePlayer from '../utils/AddYoutubeVideo';
 import { Link } from 'react-router-dom';
 
 class home extends React.Component{
@@ -36,7 +37,9 @@ class home extends React.Component{
         <div className="slider_area">
             <div class="video-background">
                 <div class="video-foreground" >
-                    <div id="player"></div>
+                    <div id="player">
+                    <YoutubePlayer/>
+                    </div>
             </div>
                 
             </div>
