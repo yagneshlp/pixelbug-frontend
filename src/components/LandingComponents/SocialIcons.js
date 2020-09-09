@@ -48,7 +48,7 @@ class SocialIcons extends React.Component{
                                     </span>
                                 </div>
                                 <span className="follow follow--middle">
-                                    Follow
+                                    Subscribe
                                 </span>
                             </div>
                         </a>
