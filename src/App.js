@@ -9,6 +9,7 @@ import Gallery from './components/Gallery';
 import PhotoGallery from './components/PhotoGallery';
 import VideoGallery from './components/VideoGallery';
 import Alumni from './components/Alumni';
+import ScrollToTop from './utils/ScrollToTop';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -16,6 +17,7 @@ class App extends React.Component {
   render(){ 
     return (
     <Router>
+      <ScrollToTop/>
         <div className="App">
             <Navbar/>
             <Switch>           
