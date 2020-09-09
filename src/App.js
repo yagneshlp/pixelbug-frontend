@@ -27,12 +27,13 @@ class App extends React.Component {
                 <Route path="/gallery" exact component={Gallery}></Route>
                 <Route path="/gallery/videos" exact component={VideoGallery}></Route>
                 <Route path="/gallery/photos" exact component={PhotoGallery}></Route>
-                <Route path="/gallery/photos/fests" exact component={Gallery}></Route>
-                <Route path="/gallery/photos/category" exact component={Gallery}></Route>
+                <Route path="/gallery/photos/:mode" exact component={PhotoGallery}></Route>
+                {/* <Route path="/gallery/photos/fests" exact component={Gallery}></Route>
+                <Route path="/gallery/photos/category" exact component={Gallery}></Route> */}
                 {/* <Route path="/members/:id"  component={About}></Route> Future implementation */} 
                 <Route path="/aurora" exact component={Aurora}></Route>
                 <Route path="/contact" exact component={Contact}></Route>
-                <Route path="/"  component={Home}></Route>
+                <Route path="/"  exact component={Home}></Route>
             </Switch>
             <footer className="footer">
             <div className="copy-right_text">

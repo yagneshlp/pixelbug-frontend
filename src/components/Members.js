@@ -20,8 +20,8 @@ class members extends React.Component{
                                 <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                            Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut.                                         
-                                            <br/>Our seniors are so awesome that we keep a track of them. <Link to="/members/alumni" className="linkCompensation" >View our Alumni</Link> 
+                                        The bravehearts behind the Canons, satisfying their appetence to capture.
+                                            <br/>[placeholder] <Link to="/members/alumni" className="linkCompensation" >Our Veterans</Link> 
                                         </p>                                       
                                     </div>
                                 </section>                          

@@ -17,10 +17,11 @@ class about extends React.Component {
                                 <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                           Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut. Officia proident enim elit nisi dolore irure velit Lorem irure non tempor elit ut. Excepteur labore incididunt mollit quis est. Aliquip quis non ad duis nulla mollit exercitation commodo aute anim est laboris.                                            
+                                        We are a group of engineers who take a break from engineering by doing more. As the <strong>official photography and videography club of NITT</strong>, Pixelbug has documented just about every headline event that takes place in the vast campus of NITT, including Festember and Pragyan. Since the club's establishment in 2012, we have grown from a platoon of 20 to a battalion of 60 photographers. Producing quality content, time and again through hard work and talent, the club has earned a reputation for its top-tier work. Pixelbug has been recognized and featured by reputed organizations such as National Geographic.
                                         </p>
+                                        <p></p>
                                         <p className="sample-text">
-                                           Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut. Officia proident enim elit nisi dolore irure velit Lorem irure non tempor elit ut. Excepteur labore incididunt mollit quis est. Aliquip quis non ad duis nulla mollit exercitation commodo aute anim est laboris.                                            
+                                        We, at Pixelbug are passionate about what we do and love doing it. Be it standing in the sun for hours on end for that one perfect frame, or setting up cameras in the tightest spaces to get that sweet angle, every one of us is united by the passion and love we have for the art of capturing the magical moments. Attempting to freeze the shadows of time and capturing the best memories, one frame at a time.
                                         </p>
                                     </div>
                                 </section>

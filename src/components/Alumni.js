@@ -20,7 +20,7 @@ class members extends React.Component{
                                 <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                        They are our wonderful alumni, Forever on our <i class="fa fa-heart-o" aria-hidden="true"></i>                                            
+                                        In our  <i class="fa fa-heart-o" aria-hidden="true"></i> forever. Our respected veterans.                                           
                                         </p>                                       
                                     </div>
                                 </section>                          

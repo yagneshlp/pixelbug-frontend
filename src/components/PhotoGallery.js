@@ -1,29 +1,36 @@
 import React, { Component } from 'react';
+import GalleryMode from "./GalleryMode";
 import { Link } from 'react-router-dom';
 
 
+
 class photoGallery extends React.Component{
+
     render(){
+        const { match } = this.props;       
         return ( 
-            
-            <div className="bradcam_area">
-            <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay fullpage">
-                <div className="container">
-                        <div className="row align-items-center justify-content-center">
-                        <div className="col-xl-12 text-center">
-                            <div className="bradcam_text text-center">              
-                                    <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Photography</h3>
-                                   
-                            </div>
-                            <p className="  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Browse images by</p>
-                                    <Link to="/gallery/photos/category"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Categories</a></Link>
-                                    <span></span>
-                                    <Link to="/gallery/photos/fests"><a  className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Fests</a></Link>
+           <div>
+                <div className="bradcam_area">
+                    <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay fullpage">
+                        <div className="container">
+                                <div className="row align-items-center justify-content-center">
+                                <div className="col-xl-12 text-center">
+                                    <div className="bradcam_text text-center">              
+                                            <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Photography</h3>
+                                        
+                                    </div>
+                                    <p className="  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Browse images by</p>
+                                            <Link to="/gallery/photos/category"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Categories</a></Link>
+                                            <span></span>
+                                            <Link to="/gallery/photos/fests"><a  className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Fests</a></Link>
+                                </div>
+                                </div>
                         </div>
-                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>         
+                <GalleryMode mode={match.params.mode}/>
+            </div> 
+
 //             <div className="black_bg">
 //                 <div className="bradcam_area ">
 //                 <div className="single_bradcam d-flex align-items-center bradcam_bg_1 overlay pt-150">

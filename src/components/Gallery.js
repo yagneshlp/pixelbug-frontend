@@ -16,7 +16,7 @@ class gallery extends React.Component{
                               <section className="text-center">
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                            Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut.                                            
+                                        Put together 60 hardworking and talented content creators together in a club working towards capturing the most amazing moments on campus or outside and imagine the outcome. Needless to say, Pixelbug has produced some vividly crisp and amazing content over the course of its functioning. <br/>Check out the tabs below to explore the fruits of our creativity and hard work.
                                         </p>      
                                         <br/>                                 
                                     </div>

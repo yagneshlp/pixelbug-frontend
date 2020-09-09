@@ -19,7 +19,7 @@ class AboutPreview extends React.Component{
                     <div  className="col-lg-5 col-md-6">
                         <div className="section_title pl-68 text-center" >
                             <h4 className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">About us</h4>
-                            <p  className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">← GROUP PHOTO COMES HERE<br/>Qui quis occaecat duis eiusmod qui anim pariatur exercitation. Ea excepteur fugiat dolore aliquip nostrud aliqua pariatur.<br/> BELOW LINK TAKES TO ABOUT PAGE </p><br/>
+                            <p  className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">A battalion of engineers shooting away with Japanese weapons</p><br/>
                             <Link to="/about" ><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Learn more</a></Link>
                         </div>
                     </div>
