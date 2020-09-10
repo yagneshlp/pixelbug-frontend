@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import GalleryMode from "./GalleryMode";
 import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+
+
 
 class photoGallery extends React.Component{
 
@@ -36,13 +39,13 @@ class photoGallery extends React.Component{
                                 </div>
                         </div>
                     </div>
-                </div>
+                </div>         
                 <GalleryMode mode={match.params.mode}/>               
             </div> 
     )
     }
 }
 
-export default photoGallery;
+export default withRouter(photoGallery);
 
 
