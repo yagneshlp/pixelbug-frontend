@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import GalleryMode from "./GalleryMode";
 import { Link } from 'react-router-dom';
 
-
-
 class photoGallery extends React.Component{
 
     render(){
@@ -14,84 +12,33 @@ class photoGallery extends React.Component{
                     <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay fullpage">
                         <div className="container">
                                 <div className="row align-items-center justify-content-center">
-                                <div className="col-xl-12 text-center">
-                                    <div className="bradcam_text text-center">              
-                                            <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Photography</h3>
+                                    <div className="col-xl-12 text-center">
+                                        <div className="bradcam_text text-center">              
+                                            <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Photography</h3>                                            
+                                        </div>
+                                        <p className="  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Choose the Year</p>
+                                        <Link to="/gallery/photos/2015"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2015</a></Link>
+                                        <Link to="/gallery/photos/2016"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2016</a></Link>
+                                        <Link to="/gallery/photos/2017"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2017</a></Link>
+                                        <Link to="/gallery/photos/2018"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2018</a></Link>
+                                        <Link to="/gallery/photos/2019"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2019</a></Link>
+                                        {
+                                            match.params.mode ? 
+                                            <svg class="arrows">
+                                                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                                                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                                                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                                            </svg> 
+                                            : ""
+                                        }
                                         
                                     </div>
-                                    <p className="  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Browse images by</p>
-                                            <Link to="/gallery/photos/category"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Categories</a></Link>
-                                            <span></span>
-                                            <Link to="/gallery/photos/fests"><a  className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Fests</a></Link>
-                                </div>
                                 </div>
                         </div>
                     </div>
                 </div>
-                <GalleryMode mode={match.params.mode}/>
+                <GalleryMode mode={match.params.mode}/>               
             </div> 
-
-//             <div className="black_bg">
-//                 <div className="bradcam_area ">
-//                 <div className="single_bradcam d-flex align-items-center bradcam_bg_1 overlay pt-150">
-//                     <div className="col-lg-12 col-md-auto">
-//                         <div className="row align-items-center justify-content-center">
-//                         <div className="col-lg-4 col-md-auto"> 
-//                             <div className="container">
-//                                 <div className="row align-items-center justify-content-center">
-//                                 <div className="col-xl-12 text-center">
-//                                     <div className="bradcam_text text-center">              
-//                                             <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Gallery</h3>                                        
-//                                     </div>
-                                    
-//                                 </div>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                         <div className="col-lg-8 col-md-auto text-center">
-//                             <p className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s"> Browse images by</p>
-//                             <div className="container performar_area noPadding">                           
-//                                 <div className="row justify-content-center">
-                                
-//                                     <div className="col-lg-9 col-md-6">
-//                                         <div className="row memberRow text-center" >
-                                        
-//                                             <div className="col-lg-6 col-md-4">
-//                                             <Link to="/gallery/photos/category">
-//                                                 <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">                                
-//                                                     <div className="performer_heading">
-//                                                         <h4><span>Categories</span></h4>                                   
-//                                                     </div>
-//                                                     <div data-tilt className="thumb">
-//                                                         <img src="../img/performer/1.png" alt=""/>
-//                                                     </div>
-//                                                 </div></Link>
-//                                             </div>
-//                                             <div className="col-lg-6 col-md-4">
-//                                             <Link to="/gallery/photos/fests">
-//                                                 <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                                
-//                                                     <div className="performer_heading">
-//                                                         <h4><span>Fests</span></h4>                                  
-//                                                     </div>
-//                                                     <div data-tilt className="thumb">
-//                                                         <img src="../img/performer/2.png" alt=""/>
-//                                                     </div>
-//                                                 </div></Link>
-//                                             </div>
-//                                             </div>
-//                                     </div>
-//                                 </div>
-//                             </div>     
-//                         </div>
-//                         </div>
-//                     </div>
-            
-                   
-//                 </div>
-//             </div>
-                            
-// </div>
     )
     }
 }

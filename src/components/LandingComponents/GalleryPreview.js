@@ -46,7 +46,7 @@ class GalleryPreview extends React.Component{
                                 className="brand_active"
                                 autoplay={true}
                                 loop={true}
-                                items={4}
+                                items={4}                                
                                 dots={false}
                                 navText={this.state.navText}
                                 navContainer={"#navContainer"}
@@ -57,23 +57,32 @@ class GalleryPreview extends React.Component{
                                 nav
                             >
                                 <div className="single_brand text-center">
-                                        <img src="img/performer/1.png" alt=""/>
+                                        <img src="img/works/1.jpg" alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src="img/performer/2.png" alt=""/>
+                                        <img src="img/works/2.jpg" alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src="img/performer/3.png" alt=""/>
+                                        <img src="img/works/3.jpg" alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src="img/performer/4.png" alt=""/>
+                                        <img src="img/works/4.jpg" alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src="img/performer/1.png" alt=""/>
+                                        <img src="img/works/5.jpg" alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src="img/performer/2.png" alt=""/>
-                                    </div>                            
+                                        <img src="img/works/6.jpg" alt=""/>
+                                    </div>  
+                                    <div className="single_brand text-center">
+                                        <img src="img/works/7.jpg" alt=""/>
+                                    </div> 
+                                    <div className="single_brand text-center">
+                                        <img src="img/works/8.jpg" alt=""/>
+                                    </div>          
+                                    <div className="single_brand text-center">
+                                        <img src="img/works/9.jpg" alt=""/>
+                                    </div>                     
                             </OwlCarousel>
                             <div id="navContainer"></div>
 

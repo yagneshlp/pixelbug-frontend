@@ -27,19 +27,22 @@ class AuroraPreview extends React.Component{
                                                 animateIn= {'fadeIn'} 
                                             >
                                                 <div className="single_brand text-center">
-                                                        <img src="img/team/1.jpg" alt=""/>
+                                                        <img src="img/aurora/1.jpg" alt=""/>
                                                     </div>
                                                     <div className="single_brand text-center">
-                                                        <img src="img/team/2.jpg" alt=""/>
+                                                        <img src="img/aurora/2.jpg" alt=""/>
                                                     </div>
                                                     <div className="single_brand text-center">
-                                                        <img src="img/team/3.jpg" alt=""/>
+                                                        <img src="img/aurora/3.jpg" alt=""/>
                                                     </div>
                                                     <div className="single_brand text-center">
-                                                        <img src="img/team/4.jpg" alt=""/>
+                                                        <img src="img/aurora/4.jpg" alt=""/>
+                                                    </div>
+                                                    <div className="single_brand text-center">
+                                                        <img src="img/aurora/5.jpg" alt=""/>
                                                     </div>
                                             </OwlCarousel>
-                                            <p className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">The event regularly attracts a diverse range of attendees from around the world.</p>
+                                            <p className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">The event regularly attracts a diverse range of attendees.</p>
                                             <Link to="/aurora"><a className="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Know more!</a></Link>
                                         </div>
                                     </div>

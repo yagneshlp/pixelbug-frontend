@@ -23,11 +23,11 @@ class home extends React.Component{
                             <div className="row align-items-center justify-content-center">
                                 <div className="col-xl-12 text-center">
                                     <div className="slider_text text-center mb-0">
-                                        <h3 className="wow fadeInLeft fontSize50" data-wow-duration="1s" data-wow-delay="12s">Pixelbug</h3>
+                                        <h3 className="wow fadeInLeft fontSize50" data-wow-duration="1s" data-wow-delay="1s">Pixelbug</h3>
                                         {/* <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Pixelbug</p> */}
                                         {/* <iframe className ="landingVideo" width="560" height="315" src="https://www.youtube.com/embed/cXSEEQIevqk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe> */}
                                     </div>
-                                    <p className="wow fadeInRight" data-wow-duration="1s" data-wow-delay="12.5s" >The Official Photography and Videography club of <a className="alink" href="//nitt.edu" target="_blank">NIT Trichy</a></p>
+                                    <p className="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.5s" >The Official Photography and Videography club of <a className="alink" href="//nitt.edu" target="_blank">NIT Trichy</a></p>
                                 </div>
                             </div>
                         </div>                    

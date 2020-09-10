@@ -8,11 +8,8 @@ class AboutPreview extends React.Component{
                 <div className="row align-items-center">
                     <div className="col-lg-7 col-md-6">
                         <div className="about_thumb">
-                            <div className="shap_3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
-                                <img src="img/shape/shape_3.svg" alt=""/>
-                            </div>
                             <div className="thumb_inner  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                <img src="img/about/about.png" alt=""/>
+                                <img src="img/about.jpg" alt=""/>
                             </div>
                         </div>
                     </div>
