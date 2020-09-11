@@ -159,13 +159,20 @@
     
     
 }
+.redHeadings{
+    padding: 20px 0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
 
 .redHeadings h2,h3,h4{
     color: red;
 }
 
 .redFont{
-    color:red;
+    color:rgb(255, 0, 0);
 }
 
 .buttonDisabled{
