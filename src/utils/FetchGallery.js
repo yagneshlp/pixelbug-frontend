@@ -1,5 +1,7 @@
 import React , {useState , useEffect} from 'react';
 import { withRouter } from 'react-router-dom';
+import { production, awsKeys } from '../var/Variables';
+import Masonry from 'react-masonry-css'
 var Minio = require('minio');
 
 //const mode = (props)
@@ -16,14 +18,14 @@ function FetchGallery(props){
 
         var s3Client = new Minio.Client({
             endPoint:  's3.amazonaws.com',
-            accessKey: 'AKIAJTRW6SORHT47MQIQ',
-            secretKey: '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',
-            region: "ap-south-1"
+            accessKey: awsKeys.access,
+            secretKey: awsKeys.secret,
+            region: production.region
         })
          var objects = [];
          var year = props.year;        
          
-        var stream = s3Client.listObjects('pixelbug-website','', true)
+        var stream = s3Client.listObjects(production.bucketName,'', true)
         stream.on('data', function(obj) {
              //console.log(obj.name) 
              var regex = new RegExp( `(gallery\/${year}\/)[a-zA-Z0-9_]+`);
@@ -39,18 +41,19 @@ function FetchGallery(props){
 
     };
 
-    return(
-        <div className="row gallery-item">
-        {
-            items.map( obj =>{
-                return <div className="col-md-4">
-                            <a href={"https://pixelbug-website.s3.ap-south-1.amazonaws.com/" + obj.name} className="img-pop-up">
-                                <div className="single-gallery-image" style={{background: `url(https://pixelbug-website.s3.ap-south-1.amazonaws.com/${obj.name})`}}></div>
-                            </a>
-                        </div>
-            })
-        }
-        </div>
+    return( <Masonry
+                breakpointCols={3}
+                className="my-masonry-grid"
+                columnClassName="my-masonry-grid_column">
+                {
+                    items.map( obj =>{
+                        return <div>
+                                    <img src= {`https://pixelbug-website.s3.ap-south-1.amazonaws.com/${obj.name}`}/>
+                                </div>
+
+                    })
+                }
+                </Masonry>
     );
 
 

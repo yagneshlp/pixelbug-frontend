@@ -3,10 +3,11 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Link } from 'react-router-dom';
+import { production } from '../../var/Variables';
 
 class TeamPreview extends React.Component{    
     render(){
-        var bucketURL = "https://pixelbug-website.s3.ap-south-1.amazonaws.com"
+        //var   production.bucketLink = "https://pixelbug-website.s3.ap-south-1.amazonaws.com"
         return (   
             <div className="container pt-50 pb-5" > 
                      <div className="row align-items-center mt-30">                    
@@ -30,25 +31,25 @@ class TeamPreview extends React.Component{
                                 animateIn= {'fadeIn'} 
                             >
                                 <div className="single_brand text-center">
-                                        <img src={bucketURL +"/team/1.jpg" } alt=""/>
+                                        <img src={  production.bucketLink +"/team/1.jpg" } alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src={bucketURL +"/team/2.jpg" } alt=""/>
+                                        <img src={  production.bucketLink +"/team/2.jpg" } alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src={bucketURL +"/team/3.jpg" } alt=""/>
+                                        <img src={  production.bucketLink +"/team/3.jpg" } alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src={bucketURL +"/team/4.jpg" } alt=""/>
+                                        <img src={  production.bucketLink +"/team/4.jpg" } alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src={bucketURL +"/team/5.jpg" } alt=""/>
+                                        <img src={  production.bucketLink +"/team/5.jpg" } alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src={bucketURL +"/team/6.jpg" } alt=""/>
+                                        <img src={  production.bucketLink +"/team/6.jpg" } alt=""/>
                                     </div>
                                     <div className="single_brand text-center">
-                                        <img src={bucketURL +"/team/7.jpg" } alt=""/>
+                                        <img src={  production.bucketLink +"/team/7.jpg" } alt=""/>
                                     </div>
                             </OwlCarousel>
                             </div>
