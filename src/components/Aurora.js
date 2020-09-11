@@ -20,9 +20,17 @@ class aurora extends React.Component{
                                         <h3 className="wow fadeInRight fontSize50" data-wow-duration="1s" data-wow-delay=".3s">Aurora</h3>
                                 </div>
                                 <section >
+                                
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                        Aurora is our annual flagship event, where we invite acclaimed photographers to share their experiences and advice with the students. What started as an event to bring in more professional exposure to the members is now open to all students, catering to both the beginners and seasoned. The event has brought in dozens of notable speakers, such as <strong>Prudhvi Chowdary, Abhishek Kamble, Arvind Shenoy, Jeswin Rebello, Navaneeth Unnikrishnan, Praveen Priyadarshan, Krishna Sankar </strong>, bringing immense value to the members of pixelbug and attendees alike. 
+                                        Aurora is our annual flagship event, where we invite acclaimed photographers to share their experiences and advice with the students. What started as an event to bring in more professional exposure to the members is now open to all students, catering to both the beginners and seasoned. The event has brought in dozens of notable speakers, such as 
+                                        <strong><a className="linkCompensation" href= "https://instagram.com/prudhvichowdary?igshid=102ve1wjgc2e3" target="_blank"> Prudhvi Chowdary</a>, 
+                                        <a className="linkCompensation" href= "https://instagram.com/12mp_me?igshid=m6d09j2net01" target="_blank"> Abhishek Kamble</a>,
+                                         <a className="linkCompensation" href= "" target="_blank"> Arvind Shenoy</a>,
+                                         <a className="linkCompensation" href= "https://instagram.com/jeswinrebello?igshid=15g4qcr6ymqw4" target="_blank"> Jeswin Rebello</a>,
+                                         <a className="linkCompensation" href= "https://instagram.com/navaneeth_unnikrishnan?igshid=3lovbnoeybqf" target="_blank"> Navaneeth Unnikrishnan</a>,
+                                         <a className="linkCompensation" href= "https://instagram.com/praveenpriyadarshanphotography?igshid=oc94921zpxn0" target="_blank"> Praveen Priyadarshan</a>,
+                                         <a className="linkCompensation" href= "https://instagram.com/krish_here?igshid=1rouh1ys27wz9" target="_blank"> Krishna Sankar</a></strong>, bringing immense value to the members of pixelbug and attendees alike. 
                                         </p><br/><p className="sample-text">
                                         Knowledge aside, the experiences shared by these renowned artists have been of immense value to the members. Moreover, the spectrum of expertise, consisting of mobile photography, wildlife photography, street photography, light painting, astrophotography, fashion and product have been proven useful to those who have just picked up a DSLR to those who have been working with them for decades. 
                                         </p>                                        
