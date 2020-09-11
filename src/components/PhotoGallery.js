@@ -20,6 +20,9 @@ class photoGallery extends React.Component{
                                             <h3 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Photography</h3>                                            
                                         </div>
                                         <p className="  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">Choose the Year</p>
+                                        <Link to="/gallery/photos/2012"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2012</a></Link>
+                                        <Link to="/gallery/photos/2013"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2013</a></Link>
+                                        <Link to="/gallery/photos/2014"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2014</a></Link>
                                         <Link to="/gallery/photos/2015"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2015</a></Link>
                                         <Link to="/gallery/photos/2016"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2016</a></Link>
                                         <Link to="/gallery/photos/2017"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2017</a></Link>

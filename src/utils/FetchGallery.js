@@ -1,7 +1,8 @@
 import React , {useState , useEffect} from 'react';
 import { withRouter } from 'react-router-dom';
 import { production, awsKeys } from '../var/Variables';
-import Masonry from 'react-masonry-css'
+import Masonry from 'react-masonry-css';
+import { Link } from 'react-router-dom';
 var Minio = require('minio');
 
 const breakpointColumnsObj = {
@@ -34,7 +35,7 @@ function FetchGallery(props){
         else if (page == "aurora")
             query = new RegExp( `(aurora\/)[a-zA-Z0-9_]+`);
         else if(page == "home")
-            query = new RegExp( `(home\/)[a-zA-Z0-9_]+`);
+            query = new RegExp( `(works\/)[a-zA-Z0-9_]+`);
          
         var stream = s3Client.listObjects(production.bucketName,'', true)
         stream.on('data', function(obj) {
@@ -61,7 +62,8 @@ function FetchGallery(props){
                                 </div>
 
                     })
-                }
+                   
+                }         
                 </Masonry>
     );
 

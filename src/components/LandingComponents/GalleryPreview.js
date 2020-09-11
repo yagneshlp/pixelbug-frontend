@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import FetchGallery from '../../utils/FetchGallery';
 import { Link } from 'react-router-dom';
 
 class GalleryPreview extends React.Component{
@@ -42,50 +40,7 @@ class GalleryPreview extends React.Component{
                     <div className="row mb-20">
                         <div className="col-lg-12">
                             <div className=" text-center">
-                            <OwlCarousel
-                                className="brand_active"
-                                autoplay={true}
-                                loop={true}
-                                items={4}                                
-                                dots={false}
-                                navText={this.state.navText}
-                                navContainer={"#navContainer"}
-                                responsive={this.state.responsive}  
-                                autoplaySpeed={500}
-                                animateOut={'fadeOut'}
-                                animateIn= {'fadeIn'}                                         
-                                nav
-                            >
-                                <div className="single_brand text-center">
-                                        <img src="img/works/1.jpg" alt=""/>
-                                    </div>
-                                    <div className="single_brand text-center">
-                                        <img src="img/works/2.jpg" alt=""/>
-                                    </div>
-                                    <div className="single_brand text-center">
-                                        <img src="img/works/3.jpg" alt=""/>
-                                    </div>
-                                    <div className="single_brand text-center">
-                                        <img src="img/works/4.jpg" alt=""/>
-                                    </div>
-                                    <div className="single_brand text-center">
-                                        <img src="img/works/5.jpg" alt=""/>
-                                    </div>
-                                    <div className="single_brand text-center">
-                                        <img src="img/works/6.jpg" alt=""/>
-                                    </div>  
-                                    <div className="single_brand text-center">
-                                        <img src="img/works/7.jpg" alt=""/>
-                                    </div> 
-                                    <div className="single_brand text-center">
-                                        <img src="img/works/8.jpg" alt=""/>
-                                    </div>          
-                                    <div className="single_brand text-center">
-                                        <img src="img/works/9.jpg" alt=""/>
-                                    </div>                     
-                            </OwlCarousel>
-                            <div id="navContainer"></div>
-
+                            <FetchGallery page="home"/>
                             <Link to="/gallery"><a className="boxed-btn3  wow fadeInLeft text-center" data-wow-duration="1s" data-wow-delay=".7s">View our gallery</a></Link>
                             
                             </div>
