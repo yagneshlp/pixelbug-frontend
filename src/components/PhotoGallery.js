@@ -26,6 +26,7 @@ class photoGallery extends React.Component{
                                         <Link to="/gallery/photos/2017"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2017</a></Link>
                                         <Link to="/gallery/photos/2018"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2018</a></Link>
                                         <Link to="/gallery/photos/2019"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2019</a></Link>
+                                        <Link to="/gallery/photos/2020"><a className="boxed-btn3  wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s">2020</a></Link>
                                         {
                                             match.params.mode ? 
                                             <svg class="arrows">
