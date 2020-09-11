@@ -426,6 +426,16 @@
     border-radius: 5px
   }
 
+  .viewGallery{
+      height: 100px;
+      background:#ff4533;
+      border-radius: 5px;
+  }
+  .viewGallery h2{
+    padding: 30px;
+    color: white;
+}
+
 
   @media(min-width: 767px){
     .coreMember{
@@ -490,9 +500,17 @@
     .homepageArrow{
         display: none;
     }
+    .my-masonry-grid {
+        margin-left: 0; /* gutter size offset */
+        width: auto;
+        padding: 20px;
+      }
+      .viewGallery{
+          height: 70px;
+      }
+      .viewGallery h2{
+          padding: 20px;
+          font-size: 20px;
+      }
   }
 
-  @media(max-width: 424px){
-
-
-  }

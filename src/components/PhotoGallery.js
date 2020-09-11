@@ -3,8 +3,6 @@ import GalleryMode from "./GalleryMode";
 import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
 
-
-
 class photoGallery extends React.Component{
 
     render(){

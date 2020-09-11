@@ -41,7 +41,7 @@ class GalleryPreview extends React.Component{
                         <div className="col-lg-12">
                             <div className=" text-center">
                             <FetchGallery page="home"/>
-                            <Link to="/gallery"><a className="boxed-btn3  wow fadeInLeft text-center" data-wow-duration="1s" data-wow-delay=".7s">View our gallery</a></Link>
+                            {/* <Link to="/gallery"><a className="boxed-btn3  wow fadeInLeft text-center" data-wow-duration="1s" data-wow-delay=".7s">View our gallery</a></Link> */}
                             
                             </div>
                         </div>
