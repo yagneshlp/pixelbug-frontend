@@ -7,7 +7,6 @@ import { production } from '../../var/Variables';
 
 class TeamPreview extends React.Component{    
     render(){
-        //var   production.bucketLink = "https://pixelbug-website.s3.ap-south-1.amazonaws.com"
         return (   
             <div className="container pt-50 pb-5" > 
                      <div className="row align-items-center mt-30">                    

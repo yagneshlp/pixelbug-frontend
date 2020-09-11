@@ -40,7 +40,7 @@ function FetchGallery(props){
         if(page == "gallery")
             query = new RegExp( `(gallery\/${props.year}\/)[a-zA-Z0-9_]+`);  
         else if (page == "aurora")
-            query = new RegExp( `(aurora\/)[a-zA-Z0-9_]+`);
+            query = new RegExp( `(aurora\/)[a-zA-Z0-9\._]+$`);
         else if(page == "home")
             query = new RegExp( `(works\/)[a-zA-Z0-9_]+`);
         else if(page == "homeAurora")
@@ -50,7 +50,7 @@ function FetchGallery(props){
         stream.on('data', function(obj) {
 
              if(query.test(obj.name)) {
-                   // console.log("matched :: " + obj.name );
+                   //console.log("matched :: " + obj.name );
                    if(props.page === "home") objects.pop();
                     objects.push(obj);
                     if(props.page === "home")objects.push(moreobj);
