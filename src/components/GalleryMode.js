@@ -17,7 +17,7 @@ class GalleryMode extends React.Component{
                         <div className="section-top-border">
                             <h3>{this.props.mode}</h3>
                             <div className="col-12">
-                                <FetchGallery year = {this.props.mode}/>     
+                                <FetchGallery page = {"gallery"} year = {this.props.mode}/>     
                             </div>                                           
                         </div>
                     </div>

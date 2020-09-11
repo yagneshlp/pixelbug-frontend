@@ -418,10 +418,12 @@
     background: grey;
     margin-bottom: 10px;
     width: 100%;
-    border-radius: 5%;
+    border-radius: 5px
+    
   }
   .my-masonry-grid_column img {
     width: 100%;
+    border-radius: 5px
   }
 
 
