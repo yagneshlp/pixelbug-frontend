@@ -54,7 +54,7 @@ function FetchAlumni(props){
     {
         items.map( member =>{
             return <div className="redHeadings">
-            <h2 className="mb-30">{member.name}</h2><p>currently</p>
+            <h2 className="mb-30">{member.name}</h2>
             <div className="row">
                 <div className="col-md-3">
                     <img src={member.img} alt="" className="img-fluid mb-20"/>
