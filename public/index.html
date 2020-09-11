@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="preconnect" href="https://pixelbug-website.s3.ap-south-1.amazonaws.com">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
      <meta name="author" content="Yagnesh L P" /> <!--https://yagneshlp.me -->
@@ -11,9 +12,19 @@
       content="Pixelbug is the Official Photography and Videography Club of NIT Trichy."
     />
     <title>Pixelbug</title>
-     <!-- CSS here -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177802558-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177802558-1');
+    </script>
+     <!-- essential CSS here -->
+     <link rel="stylesheet" href="%PUBLIC_URL%/scss/style.css">
+     <link rel="stylesheet" href="%PUBLIC_URL%/css/gandalf.css">
      <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css">
-     <link rel="stylesheet" href="%PUBLIC_URL%/css/owl.carousel.min.css">
      <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css">
      <link rel="stylesheet" href="%PUBLIC_URL%/css/font-awesome.min.css">
      <link rel="stylesheet" href="%PUBLIC_URL%/css/themify-icons.css">
@@ -22,8 +33,6 @@
      <link rel="stylesheet" href="%PUBLIC_URL%/css/animate.css">
      <link rel="stylesheet" href="%PUBLIC_URL%/css/flaticon.css">
      <link rel="stylesheet" href="%PUBLIC_URL%/css/slicknav.css"> 
-     <link rel="stylesheet" href="%PUBLIC_URL%/scss/style.css">
-     <link rel="stylesheet" href="%PUBLIC_URL%/css/gandalf.css">
      <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   </head>
   <body>

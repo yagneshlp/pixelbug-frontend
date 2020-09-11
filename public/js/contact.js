@@ -16,21 +16,33 @@ $(document).ready(function(){
                     required: true,
                     minlength: 2
                 },
-                subject: {
+                club: {
+                    required: true,
+                    minlength: 2
+                },
+                event: {
                     required: true,
                     minlength: 4
                 },
                 number: {
                     required: true,
-                    minlength: 5
+                    minlength: 10
                 },
                 email: {
                     required: true,
                     email: true
                 },
-                message: {
+                date: {
                     required: true,
-                    minlength: 20
+                    minlength: 4
+                },
+                time: {
+                    required: true,
+                    minlength: 4
+                },
+                venue: {
+                    required: true,
+                    minlength: 3
                 }
             },
             messages: {
@@ -38,45 +50,68 @@ $(document).ready(function(){
                     required: "come on, you have a name, don't you?",
                     minlength: "your name must consist of at least 2 characters"
                 },
-                subject: {
-                    required: "come on, you have a subject, don't you?",
+                club: {
+                    required: "we need to know which club/ team you are representing...",
+                    minlength: "your name must consist of at least 2 characters"
+                },
+                event: {
+                    required: "come on, you have a event, don't you?",
                     minlength: "your subject must consist of at least 4 characters"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "we need your number to give you a callback!",
+                    minlength: "your Number must consist of at least 10 characters"
                 },
                 email: {
                     required: "no email, no message"
                 },
-                message: {
-                    required: "um...yea, you have to write something to send this form.",
+                date: {
+                    required: "we need the date to know when to cover",
+                    minlength: "thats all? really?"
+                },
+                time: {
+                    required: "we need the time to know when to cover",
+                    minlength: "thats all? really?"
+                },
+                venue: {
+                    required: "we need the location to know where to cover",
                     minlength: "thats all? really?"
                 }
             },
             submitHandler: function(form) {
-                $(form).ajaxSubmit({
-                    type:"POST",
-                    data: $(form).serialize(),
-                    url:"contact_process.php",
-                    success: function() {
-                        $('#contactForm :input').attr('disabled', 'disabled');
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#success').fadeIn()
-                            $('.modal').modal('hide');
-		                	$('#success').modal('show');
-                        })
-                    },
-                    error: function() {
-                        $('#contactForm').fadeTo( "slow", 1, function() {
-                            $('#error').fadeIn()
-                            $('.modal').modal('hide');
-		                	$('#error').modal('show');
-                        })
-                    }
-                })
+                $("#formMessage").text("Thank you for your request, but we are not taking event coverage requests now, cuz, you know, the obvious, college is not functioning.");
+                // $('#contactForm :input').attr('disabled', 'disabled');
+                //         $('#contactForm').fadeTo( "slow", 1, function() {
+                //             $(this).find(':input').attr('disabled', 'disabled');
+                //             $(this).find('label').css('cursor','default');
+                //             $('#success').fadeIn()
+                //             $('.modal').modal('hide');
+		        //         	$('#success').modal('show');
+                //         })
+
+
+                // $(form).ajaxSubmit({
+                //     type:"POST",
+                //     data: $(form).serialize(),
+                //     url:"contact_process.php",
+                //     success: function() {
+                //         $('#contactForm :input').attr('disabled', 'disabled');
+                //         $('#contactForm').fadeTo( "slow", 1, function() {
+                //             $(this).find(':input').attr('disabled', 'disabled');
+                //             $(this).find('label').css('cursor','default');
+                //             $('#success').fadeIn()
+                //             $('.modal').modal('hide');
+		        //         	$('#success').modal('show');
+                //         })
+                //     },
+                //     error: function() {
+                //         $('#contactForm').fadeTo( "slow", 1, function() {
+                //             $('#error').fadeIn()
+                //             $('.modal').modal('hide');
+		        //         	$('#error').modal('show');
+                //         })
+                //     }
+                // })
             }
         })
     })

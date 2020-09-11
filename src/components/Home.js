@@ -28,12 +28,18 @@ class home extends React.Component{
                                         {/* <iframe className ="landingVideo" width="560" height="315" src="https://www.youtube.com/embed/cXSEEQIevqk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe> */}
                                     </div>
                                     <p className="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.5s" >The Official Photography and Videography club of <a className="alink" href="//nitt.edu" target="_blank">NIT Trichy</a></p>
+                                    <svg class="arrows homepageArrow">
+                                        <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                                        <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                                        <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                                    </svg>
                                 </div>
+                                
                             </div>
                         </div>                    
                     </div>
                 </div>            
-                <div className="about_area black_bg pb-2">
+                <div className="about_area black_bg pb-2 pt-50">
                     <AboutPreview/>
                     <div className="brand_area black_bg">                
                         <GalleryPreview/>

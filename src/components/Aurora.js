@@ -24,7 +24,9 @@ class aurora extends React.Component{
                                 <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                           Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in. Sit consequat fugiat duis cupidatat sunt nulla ullamco excepteur laboris sit sit aliquip excepteur ut. Officia proident enim elit nisi dolore irure velit Lorem irure non tempor elit ut. Excepteur labore incididunt mollit quis est. Aliquip quis non ad duis nulla mollit exercitation commodo aute anim est laboris.                                            
+                                        Aurora is our annual flagship event, where we invite acclaimed photographers to share their experiences and advice with the students. What started as an event to bring in more professional exposure to the members is now open to all students, catering to both the beginners and seasoned. The event has brought in dozens of notable speakers, such as <strong>Prudhvi Chowdary, Abhishek Kamble, Arvind Shenoy, Jeswin Rebello, Navaneeth Unnikrishnan, Praveen Priyadarshan, Krishna Sankar </strong>, bringing immense value to the members of pixelbug and attendees alike. 
+                                        </p><br/><p className="sample-text">
+                                        Knowledge aside, the experiences shared by these renowned artists have been of immense value to the members. Moreover, the spectrum of expertise, consisting of mobile photography, wildlife photography, street photography, light painting, astrophotography, fashion and product have been proven useful to those who have just picked up a DSLR to those who have been working with them for decades. 
                                         </p>                                        
                                     </div>
                                 </section>
@@ -88,10 +90,11 @@ class aurora extends React.Component{
                             <div className="col-lg-6 col-md-8">
                                 <div className="footer_widget">
                                     <div className="address_details text-center">
-                                        <h4 className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">1 Feb, 2020</h4>
-                                        <h3 className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Green Avenue, New York</h3>
-                                        <p className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">The event regularly attracts a diverse range of attendees from around the world.</p>
-                                        <a href="#" className="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Register</a>
+                                       
+                                        <h3 className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Aurora 2021</h3>
+                                        <h5 className="wow fadeInUp italicizee" data-wow-duration="1s" data-wow-delay=".3s">Coming Soon!</h5>
+                                        <p className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Stay tuned to this page for more info!</p>
+                                        <a className="boxed-btn3 wow fadeInUp buttonDisabled" data-wow-duration="1s" data-wow-delay=".6s">Register</a>
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
-
+// Email Id:
+// Name:
+// Club Name:
+// WhatsApp Number:
+// Event Name:
+// Type of event:
+// Date:
+// Time:
+// Location:
 
 class contact extends React.Component{
     render(){
@@ -58,16 +66,16 @@ class contact extends React.Component{
                         </div>
                         <div className="col-lg-8 offset-lg-1">
                         <h3 className="contact-title">For Event Coverage Requests, fill this form</h3>
-                            <form className="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                            <form className="form-contact contact_form"  id="contactForm" novalidate="novalidate">
                                 <div className="row">
-                                    <div className="col-12">
+                                    <div className="col-sm-6">
                                         <div className="form-group">
-                                            <textarea className="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"></textarea>
+                                            <input className="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Name"/>
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="form-group">
-                                            <input className="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name"/>
+                                            <input className="form-control valid" name="club" id="club" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Club"/>
                                         </div>
                                     </div>
                                     <div className="col-sm-6">
@@ -75,13 +83,33 @@ class contact extends React.Component{
                                             <input className="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email"/>
                                         </div>
                                     </div>
-                                    <div className="col-12">
+                                    <div className="col-sm-6">
                                         <div className="form-group">
-                                            <input className="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject"/>
+                                            <input className="form-control valid" name="number" id="number" type="tel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Whatsapp Number"/>
                                         </div>
                                     </div>
+                                    <div className="col-12">
+                                        <div className="form-group">
+                                            <input className="form-control" name="event" id="event" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Event name"/>
+                                        </div>
+                                    </div>
+                                    <div className="col-4">
+                                        <div className="form-group">
+                                            <input className="form-control" name="date" id="date" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Date"/>
+                                        </div>
+                                    </div>
+                                    <div className="col-4">
+                                        <div className="form-group">
+                                            <input className="form-control" name="time" id="time" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Time"/>
+                                        </div>
+                                    </div>
+                                    <div className="col-4">
+                                        <div className="form-group">
+                                            <input className="form-control" name="venue" id="venue" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Location"/>
+                                        </div>
+                                    </div>                                   
                                 </div>
-                                <div className="form-group mt-3">
+                                <div className="form-group mt-3" id="formMessage">
                                     <button type="submit" className="button button-contactForm boxed-btn">Send</button>
                                 </div>
                             </form>

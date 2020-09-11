@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 class TeamPreview extends React.Component{    
     render(){
-        var bucketURL = "https://aurora-pixelbug.s3.ap-south-1.amazonaws.com"
+        var bucketURL = "https://pixelbug-website.s3.ap-south-1.amazonaws.com"
         return (   
             <div className="container pt-50 pb-5" > 
                      <div className="row align-items-center mt-30">                    

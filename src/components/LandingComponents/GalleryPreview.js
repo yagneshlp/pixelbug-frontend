@@ -35,7 +35,7 @@ class GalleryPreview extends React.Component{
                         <div className="col-lg-12">
                             <div className="section_title text-center mb-30">
                                 <h4 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Our Works</h4>
-                                <p>A picture is worth a thousand words.Here are some reasons as to why we are the best.</p>
+                                <p>A picture is worth a thousand words. Here are some reasons as to why we are the best.</p>
                             </div>
                         </div>
                     </div>

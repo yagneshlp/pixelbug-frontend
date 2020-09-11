@@ -168,6 +168,10 @@
     color:red;
 }
 
+.buttonDisabled{
+    background: #333;
+}
+
 .imageBGAurora{
     background-image: url(../img/banner/bradcam_1.png) !important;
     background-position: center center;
@@ -391,6 +395,9 @@
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   }
   
+  .homepageArrow{
+      top: 300px;
+  }
 
 
   @media(min-width: 767px){
@@ -416,7 +423,7 @@
         text-align: center;
     }
     .video-background iframe {        
-        top: -500px;
+        top: -78vh;
         left: -50vw;
         width: 180%;
         height: 180%;
@@ -452,6 +459,9 @@
     }
     .count{
         padding-top: 10px;
+    }
+    .homepageArrow{
+        display: none;
     }
   }
 
