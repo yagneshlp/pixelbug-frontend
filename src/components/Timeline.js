@@ -44,7 +44,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Facebok: 2K Likes</span>
+                                        <span className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Facebook: 2K Likes</span>
                                         <h4 className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Feb 26, 2013</h4>
                                     </div>
                                     <div className="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -122,6 +122,19 @@ class timeline extends React.Component{
                                     </div>
                                     <div className="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                         <img src="https://pixelbug-website.s3.ap-south-1.amazonaws.com/timeline/8.PNG" alt=""/>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                            <div className="single_propram">
+                                <div className="inner_wrap">
+                                    <div className="circle_img"></div>
+                                    <div className="porgram_top">
+                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Facebook : 12K Likes</span>
+                                        <h4 className=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">March, 2018</h4>
+                                    </div>
+                                    <div className="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <img src="https://pixelbug-website.s3.ap-south-1.amazonaws.com/timeline/8.png" alt=""/>
                                     </div>
                                   
                                 </div>
