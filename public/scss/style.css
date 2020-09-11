@@ -2103,7 +2103,7 @@ h3 {
           transform: translateX(-50%);
   content: '';
   background: rgba(255, 255, 255, 0.2);
-  height: 73%;
+  height: 100%;
   width: 1px;
   top: 0;
   bottom: 0;
@@ -2114,7 +2114,7 @@ h3 {
     left: 13px;
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    height: 75%;
+    height: 100%;
   }
 }
 

@@ -18,14 +18,14 @@
          transform: translateX(-50%);
          content: '';
          background: rgba(255,255,255,.20);
-         height: 73%;
+         height: 100%;
          width: 1px;
          top: 0;
          bottom: 0;
          @media #{$mobile_device} {
             left: 13px;
             transform: translateX(0);
-            height: 75%;
+            height: 100%;
         }
      }
      .single_propram{
