@@ -166,6 +166,9 @@
     border-color: red;
     border-width: 1px;
 }
+.img-fluid{
+    width: 100%;
+}
 
 .redHeadings h2,h3,h4{
     color: red;

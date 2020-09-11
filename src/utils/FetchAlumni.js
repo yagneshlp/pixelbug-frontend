@@ -24,7 +24,7 @@ function FetchAlumni(props){
         //console.log(members);
         var team=[];
         
-        var offset = { name: 0, dept : 1, batch:2, desig : 4, img : 6,	q1 : 8, q2: 9, q3: 10, q4:11 };
+        var offset = { name: 0, dept : 1, batch:2, desig : 4, img : 6, cur:7, q1 : 8, q2: 9, q3: 10, q4:11 };
         for (var i=1;i<(members.feed.entry.length/12);i++) {            
             team.splice(i,0,memberBuilder(members.feed, i));
         }
@@ -35,6 +35,7 @@ function FetchAlumni(props){
                 "dept": feed.entry[(12*seed) + offset.dept].content.$t,
                 "batch": feed.entry[(12*seed) + offset.batch].content.$t,
                 "desig": feed.entry[(12*seed) + offset.desig].content.$t,
+                "cur" : feed.entry[(12*seed) + offset.cur].content.$t,
                 "img": feed.entry[(12*seed) + offset.img].content.$t,
                 "q1": feed.entry[(12*seed) + offset.q1].content.$t,
                 "q2": feed.entry[(12*seed) + offset.q2].content.$t,
@@ -53,7 +54,7 @@ function FetchAlumni(props){
     {
         items.map( member =>{
             return <div className="redHeadings">
-            <h2 className="mb-30">{member.name}</h2>
+            <h2 className="mb-30">{member.name}</h2><p>currently</p>
             <div className="row">
                 <div className="col-md-3">
                     <img src={member.img} alt="" className="img-fluid mb-20"/>
@@ -65,6 +66,7 @@ function FetchAlumni(props){
                     <p className="redFont">{questions.q2}</p><p>{member.q2}</p>
                     <p className="redFont">{questions.q3}</p><p>{member.q3}</p>
                     <p className="redFont">{questions.q4}</p><p>{member.q4}</p>
+                    <p className="redFont italicizee">Currently {member.name.split(' ').slice(0, -1).join(' ')} is {member.cur}</p>
                 </div>
             </div>
         </div>
