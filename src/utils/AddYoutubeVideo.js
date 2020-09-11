@@ -10,6 +10,8 @@ class YoutubePlayer extends React.Component {
         // https://developers.google.com/youtube/player_parameters Ny8IM6SFCpk
         autoplay: 1,
         loop:1,
+        playsinline: 1,
+        mute:1,
         playlist:"cXSEEQIevqk"
       },
     };
