@@ -52,7 +52,7 @@ class contact extends React.Component{
                             <div className="media contact-info">
                                 <span className="contact-info__icon"><i className="ti-email"></i></span>
                                 <div className="media-body">
-                                    <h3>pixelbugnittrichy@gmail.com</h3>
+                                    <a href="mailto:pixelbugnittrichy@gmail.com"><h3>pixelbugnittrichy@gmail.com</h3></a>
                                     {/* <p>Send us your query anytime!</p> */}
                                 </div>
                             </div>
