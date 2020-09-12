@@ -12,7 +12,7 @@ class aurora extends React.Component{
         return (   
             <div>
                 <div className="bradcam_area ">
-                <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay pb-5">
+                <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay pb-5 imageBGAurora">
                     <div className="container">
                             <div className="row align-items-center justify-content-center">
                             <div className="col-xl-12">

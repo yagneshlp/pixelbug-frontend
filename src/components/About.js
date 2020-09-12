@@ -7,7 +7,7 @@ class about extends React.Component {
         return(<div>
             {/* Main about text comes here */}
             <div className="bradcam_area">
-                <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay pt-150">
+                <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay pt-150 imageBGaboutus">
                     <div className="container">
                             <div className="row align-items-center justify-content-center">
                             <div className="col-xl-12">

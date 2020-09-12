@@ -187,10 +187,28 @@
 }
 
 .imageBGAurora{
-    background-image: url(../img/banner/bradcam_1.png) !important;
+    background-image: url(https://pixelbug-website.s3.ap-south-1.amazonaws.com/bg/2.jpg) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.imageBGworks{
+  background-image: url(https://pixelbug-website.s3.ap-south-1.amazonaws.com/bg/1.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imageBGaboutus{
+  background-image: url(https://pixelbug-website.s3.ap-south-1.amazonaws.com/bg/3.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imageBGcontact{
+  background-image: url(https://pixelbug-website.s3.ap-south-1.amazonaws.com/bg/4.jpg) !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Social media iconss ↓ */

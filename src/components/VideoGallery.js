@@ -7,7 +7,7 @@ class videoGallery extends React.Component{
         return ( 
         <div>
                  <div className="bradcam_area">
-                    <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay fullpage">
+                    <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay fullpage imageBGworks">
                         <div className="container">
                                 <div className="row align-items-center justify-content-center">
                                 <div className="col-xl-12">

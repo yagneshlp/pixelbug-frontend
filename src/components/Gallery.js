@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class gallery extends React.Component{
     render(){
         return (    <div className="bradcam_area fullpage ">
-        <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay fullpage">
+        <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay fullpage imageBGworks">
             <div className="container">
                     <div className="row align-items-center text-center justify-content-center">
                     <div className="col-xl-12">

@@ -14,7 +14,7 @@ class contact extends React.Component{
         return (   
             <div>
             <div className="bradcam_area">
-                <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay">
+                <div className="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay imageBGcontact">
                     <div className="container">
                             <div className="row align-items-center justify-content-center">
                             <div className="col-xl-12">
@@ -25,7 +25,7 @@ class contact extends React.Component{
                             <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                        Would you like us to cover your event? Got any queries? Contact us1
+                                        Would you like us to cover your event? Got any queries? Contact us
                                         </p>                                        
                                     </div>
                                 </section>
