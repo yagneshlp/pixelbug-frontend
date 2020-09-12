@@ -53,12 +53,12 @@ class SocialIcons extends React.Component{
                             </div>
                         </a>
 
-                        <a href="https://www.linkedin.com/company/pixelbug-nit-trichy/" target="_blank"  className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                        <a href="https://www.linkedin.com/company/pixelbug-nittrichy/" target="_blank"  className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
                             <div className="containerSocial container--linkedin">
                                 <div className="box box--right">
                                     <i className="ion ion-social-linkedin"></i>	
                                     <span className="count">
-                                        10.5 K				
+                                       		
                                     </span>
                                 </div>
                                 <span className="follow follow--middle">
