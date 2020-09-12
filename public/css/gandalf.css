@@ -182,6 +182,10 @@
     background: #333;
 }
 
+.equipImage{
+  width:100%
+}
+
 .imageBGAurora{
     background-image: url(../img/banner/bradcam_1.png) !important;
     background-position: center center;

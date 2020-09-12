@@ -27,7 +27,7 @@ class equipments extends React.Component{
 					</div>
 					<div className="col-md-4">
 						<div className="single-defination">
-                        <img className="mb-20" src="img/program_details/1.png" alt=""/>
+                        <img className="mb-20 equipImage" src="https://pixelbug-website.s3.ap-south-1.amazonaws.com/equipments/gimbal.jpg" alt=""/>
 							<h3 className="mb-20">Gimbal</h3>
 							<p>The pursuit for smooth, buttery shots is never ending. A jitterless, continuous scene not only provides a treat to the eye, but also entices the viewer, making the experience much more surreal. The Zhiyun Weebill S equips us with the ability to take a grip on the narrative.</p>
 						</div>
