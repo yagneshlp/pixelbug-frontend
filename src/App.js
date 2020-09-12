@@ -43,7 +43,7 @@ class App extends React.Component {
                     <div className="row">
                         <div className="col-xl-12 mt-30">
                             <p className="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-                            Website crafted with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://yagneshlp.me" target="_blank">YLP</a>
+                            Website crafted with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://ylp-website.s3-website.ap-south-1.amazonaws.com/" target="_blank">YLP</a>
                             </p>
                         </div>
                     </div>
