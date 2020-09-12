@@ -22,7 +22,7 @@ class videoGallery extends React.Component{
                                     <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                        sample text about videography and videography team <br/> Scroll down to see our video portfolio                                         
+                                        Video provides an opportunity to marry the power of ideas to the power of images <br/> Scroll down to see our video portfolio                                         
                                         </p>                                       
                                     </div>
                                 </section>          

@@ -58,7 +58,7 @@ function FetchAlumni(props){
             <div className="row">
                 <div className="col-md-3">
                     <img src={member.img} alt="" className="img-fluid mb-20"/>
-                    <h4>{member.batch}</h4>
+                    <h4>Batch of {member.batch}</h4>
                     <p>{member.desig}</p>
                 </div>
                 <div className="col-md-9 mt-sm-20">

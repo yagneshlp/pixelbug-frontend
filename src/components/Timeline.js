@@ -20,7 +20,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Club started</span>
+                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Club Founded</span>
                                         <h4 className=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Sep 12, 2012</h4>
                                     </div>
                                     <div className="thumb wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -32,7 +32,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Photography lessons</span>
+                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Photography lessons from Pxie</span>
                                         <h4 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">Oct 15, 2012</h4>
                                     </div>
                                     <div className="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -44,7 +44,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Facebook: 2K Likes</span>
+                                        <span className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">2k Likes on Facebook</span>
                                         <h4 className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Feb 26, 2013</h4>
                                     </div>
                                     <div className="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -56,7 +56,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Facebook : 5K Likes</span>
+                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">5k Likes on Facebook</span>
                                         <h4 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">Oct 3, 2014</h4>
                                     </div>   
                                     <div className="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -68,7 +68,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Instagram Started</span>
+                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Instagram Handle Started</span>
                                         <h4 className=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Jan 10, 2016</h4>
                                     </div>
                                     <div className="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -80,7 +80,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">1st Aurora- Aurora'16</span>
+                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Aurora‘16, The first edition </span>
                                         <h4 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">Aug 8,2016</h4>
                                     </div>
                                     <div className="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -92,7 +92,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Off campus events like IIT BHU</span>
+                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Off-Campus Event Coverage</span>
                                         <h4 className=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">2017</h4>
                                     </div>
                                     <div className="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -117,7 +117,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Videography Team was introduced</span>
+                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Videography Team founded</span>
                                         <h4 className=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Jan 30, 2018</h4>
                                     </div>
                                     <div className="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -130,7 +130,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Facebook : 12K Likes</span>
+                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">12k Likes on Facebook</span>
                                         <h4 className=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">March, 2018</h4>
                                     </div>
                                     <div className="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -143,7 +143,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Summer challenge'19</span>
+                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Summer Challenge '19</span>
                                         <h4 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">May 23, 2019</h4>
                                     </div>
                                     <div className="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
@@ -169,11 +169,11 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Recieved first drone</span>
+                                        <span className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">First Drone Received</span>
                                         <h4 className="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">Dec 23, 2019</h4>
                                     </div>
                                     <div className="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-                                        <img src="https://pixelbug-website.s3.ap-south-1.amazonaws.com/timeline/9.png" alt=""/>
+                                        <img src="https://pixelbug-website.s3.ap-south-1.amazonaws.com/timeline/drone.jpg" alt=""/>
                                     </div>
                                     
                                 </div>
@@ -182,7 +182,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">GAM 2020</span>
+                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Global Alumni Meet 2020</span>
                                         <h4 className=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Jan 4, 2020</h4>
                                     </div>
                                     <div className="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
@@ -208,7 +208,7 @@ class timeline extends React.Component{
                                 <div className="inner_wrap">
                                     <div className="circle_img"></div>
                                     <div className="porgram_top">
-                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Instagram 3k followers</span>
+                                        <span className=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">3k Followers on Instagram</span>
                                         <h4 className=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">March 25, 2020</h4>
                                     </div>
                                     <div className="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">

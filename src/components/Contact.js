@@ -25,7 +25,7 @@ class contact extends React.Component{
                             <section >
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
-                                           Adipisicing enim adipisicing exercitation labore quis culpa anim elit sint reprehenderit pariatur in.
+                                        Would you like us to cover your event? Got any queries? Contact us1
                                         </p>                                        
                                     </div>
                                 </section>

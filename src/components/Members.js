@@ -21,7 +21,7 @@ class members extends React.Component{
                                     <div className="container box_1170 text-center wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".3s">                                       
                                         <p className="sample-text">
                                         The bravehearts behind the Canons, satisfying their appetence to capture.
-                                            <br/>[placeholder] <Link to="/members/alumni" className="linkCompensation" >Our Veterans</Link> 
+                                            <br/>Learn more about <Link to="/members/alumni" className="linkCompensation" >Our Veterans</Link>, the masters who trained us in the art  
                                         </p>                                       
                                     </div>
                                 </section>                          
