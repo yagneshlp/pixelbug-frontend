@@ -210,6 +210,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.webopsImg{
+  width:30% !important;
+}
 
 /* Social media iconss ↓ */
 

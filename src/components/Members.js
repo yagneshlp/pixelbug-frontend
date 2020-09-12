@@ -48,14 +48,15 @@ class members extends React.Component{
             <div className="row justify-content-center">
                 <div className="col-lg-4 memberFitContent">
                     <div className="row " >
-                        <div className="col-lg-12 col-md-12">
+                        <div className="col-lg-12 col-md-12 text-center">
+                        <p className="mb-20">This website was designed and developed by </p>
                             <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                 <div data-tilt className="thumb">
-                                    <img src="img/performer/1.png" alt=""/>
+                                    <img src="img/gandalf.jpg" className="webopsImg" alt=""/>
                                 </div>
                                 <div className="performer_heading">
-                                    <h4>Mr. Zosoldos</h4>
-                                    <span>Acoustic drum</span>
+                                    <h4>Yagnesh L P</h4>
+                                    <span>Head, WebOps</span>                                    
                                 </div>
                             </div>
                         </div>
