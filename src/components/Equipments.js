@@ -20,7 +20,7 @@ class equipments extends React.Component{
 					</div>
 					<div className="col-md-4">
 						<div className="single-defination">
-                        <img className="mb-20 equipImage" src="img/program_details/1.png" alt=""/>
+                        <img className="mb-20 equipImage" src="https://pixelbug-website.s3.ap-south-1.amazonaws.com/equipments/camera.jpg" alt=""/>
 							<h3 className="mb-20">Camera</h3>
 							<p>Standing true to our word that passion is the sole requirement for this club, our camera provides a first touch to our beloved comrades, opening their gateways to a new world through the viewfinder. The Canon 700D is just the perfect tool for that - simple, yet very capable. </p>
 						</div>
