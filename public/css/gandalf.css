@@ -552,5 +552,8 @@
           padding: 20px;
           font-size: 20px;
       }
+      .webopsImg{
+        width:70% !important;
+      }
   }
 
