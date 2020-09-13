@@ -43,7 +43,7 @@ function FetchMembers(props){
                 items.map( member=>{
                     var year = new Date().getFullYear();
                     if(props.memberType === "core"){
-                        if(member.desig == "Core" && (member.batch > year))
+                        if(member.desig === "Core" && (member.batch > year))
                             return <div className="col-lg-6 col-md-6 coreMember ">
                                         <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                             <div data-tilt className="thumb memberImageContainer">
@@ -52,7 +52,7 @@ function FetchMembers(props){
                                             <div className="performer_heading textCenterAlign">
                                                 <h4>{member.name}</h4>
                                                 <p>Core</p>
-                                            <a href={"https://instagram.com/"+member.profile} target="_blank"> <span>@{member.profile}</span></a>
+                                            <a href={"https://instagram.com/"+member.profile} target="_blank" rel="noopener noreferrer"> <span>@{member.profile}</span></a>
                                             </div>
                                         </div>
                                     </div>;
@@ -73,7 +73,7 @@ function FetchMembers(props){
                         }
                     }
                     else{                    
-                        if(member.desig != "Core" && (member.batch > year))
+                        if(member.desig !== "Core" && (member.batch > year))
                             return <div className="col-lg-6 col-md-6 otherMember">
                                         <div  className="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                             <div data-tilt className="thumb memberImageContainer">
@@ -81,11 +81,13 @@ function FetchMembers(props){
                                             </div>
                                             <div className="performer_heading textCenterAlign">
                                                 <h4>{member.name}</h4>
-                                            <a href={"https://instagram.com/"+member.profile} target="_blank"> <span>@{member.profile}</span></a>
+                                            <a href={"https://instagram.com/"+member.profile} target="_blank" rel="noopener noreferrer"> <span>@{member.profile}</span></a>
                                             </div>
                                         </div>
                                     </div>;
                     }
+
+                    return "";
                     
                 })
             }

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import FetchGallery from '../../utils/FetchGallery';
-import { Link } from 'react-router-dom';
+
 
 class GalleryPreview extends React.Component{
     state = {

@@ -1,8 +1,7 @@
-import React, { Component} from 'react';
+import React from 'react';
 import FetchAlumni from '../utils/FetchAlumni';
 import FetchMembers from '../utils/FetchMembers';
-import { Link } from 'react-router-dom';
-// url: https://spreadsheets.google.com/feeds/cells/1uZKWSdclB9FGCNGpoKsdwcChwhjfJm-c5P8tRrYGP6c/1/public/full?alt=json
+
 
 class members extends React.Component{    
 

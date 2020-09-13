@@ -41,7 +41,7 @@ function FetchMembers(props){
                 items.map( video =>{
                     return <article className="blog_item">
                                 <div className="blog_item_img">
-                                    <iframe  width="100%" height="400px" src={`https://www.youtube.com/embed/${video.id}`} frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>                                  
+                                    <iframe title={video.id} width="100%" height="400px" src={`https://www.youtube.com/embed/${video.id}`} frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>                                  
                                 </div>
 
                                 <div className="blog_details">

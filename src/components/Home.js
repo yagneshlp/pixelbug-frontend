@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import YoutubePlayer from '../utils/AddYoutubeVideo';
 import SocialIcons from './LandingComponents/SocialIcons';
 import AuroraPreview from './LandingComponents/AuroraPreview';
@@ -23,11 +23,9 @@ class home extends React.Component{
                             <div className="row align-items-center justify-content-center">
                                 <div className="col-xl-12 text-center">
                                     <div className="slider_text text-center mb-0">
-                                        <h3 className="wow fadeInLeft fontSize50" data-wow-duration="1s" data-wow-delay="1s">Pixelbug</h3>
-                                        {/* <p className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Pixelbug</p> */}
-                                        {/* <iframe className ="landingVideo" width="560" height="315" src="https://www.youtube.com/embed/cXSEEQIevqk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe> */}
+                                        <h3 className="wow fadeInLeft fontSize50" data-wow-duration="1s" data-wow-delay="1s">Pixelbug</h3>                                        
                                     </div>
-                                    <p className="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.5s" >The Official Photography and Videography club of <a className="alink" href="//nitt.edu" target="_blank">NIT Trichy</a></p>
+                                    <p className="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.5s" >The Official Photography and Videography club of <a className="alink" href="//nitt.edu" target="_blank" rel="noopener noreferrer">NIT Trichy</a></p>
                                     <svg class="arrows homepageArrow">
                                         <path class="a1" d="M0 0 L30 32 L60 0"></path>
                                         <path class="a2" d="M0 20 L30 52 L60 20"></path>
