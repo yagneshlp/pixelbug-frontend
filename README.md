@@ -1,6 +1,8 @@
 The frontend for the website of Pixelbug, NIT Trichy's Photography Club. 
 The backend is a serverless compute engine AWS Lambda which handles the image resize and compression based on the api parameters. 
 
+Website is live at http://pixelbugnitt.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
