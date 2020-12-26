@@ -7,6 +7,10 @@ Website is live at http://pixelbugnitt.com/
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs all required Node modules.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
